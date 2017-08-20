@@ -90,6 +90,7 @@ chrome.runtime.onMessage.addListener((message: IRuntimeMessage, sender, sendResp
         /**************************************************************************************************************/
         case Intent.Open_Options:
             // TODO: should only 1 settings page be allowed open at a time
+            // TODO: why not just use chrome.runtime.openOptionsPage()
             // The way this works is, if message.params is not present the
             // url to open is url of "dashboard.html". If message.params is
             // present, the url to open is same as above with the search

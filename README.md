@@ -28,6 +28,10 @@
 * Download All episodes
 * MyAnimeList Integration
 * Utility Bar
+  * :star: Screenshot - Capture any frame from the video easily at source resolution
+  * Reddit Discussion
+  * Find in MAL
+  * Find in Kitsu
 * Recently Watched list
 * Toggle page elements (comments, you may also like etc.)
 * Helpful shortcuts
