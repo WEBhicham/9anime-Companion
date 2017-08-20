@@ -1,5 +1,61 @@
 @import "../../node_modules/bootstrap/scss/bootstrap"
 
+// variables
+$primary: #51286a
+$grey: #d8d8d8
+$bg-color: #fbfbfb
+$text: #9b9b9b
+$text-darker: #5e5e5e
+
+// generics
+body
+  background-color: $bg-color
+
+// styles
+.left-sidebar
+  background: #fff
+  box-shadow: 0 0 3px 0 rgba(155,155,155,.5)
+  border-radius: 4px
+  border-top: 4px solid $primary
+
+  .logo-placeholder
+    padding-top: 30px
+    padding-bottom: 30px
+    text-align: center
+
+  .nav-link
+    padding-top: 12px
+    padding-bottom: 12px
+    text-align: right
+    font-weight: 500
+    color: $text
+
+    &:hover
+      color: $text-darker
+      background-color: rgba($grey, .3)
+
+  .nav-link-end
+    margin-top: 180px
+
+  .active
+    color: $text-darker
+    background-color: rgba($grey, .3)
+
+.made-by-and-version
+  margin-top: 1rem
+  margin-right: 1rem
+  font-weight: 400
+  font-size: 12px
+  text-align: right
+  color: #9f9f9f
+
+  .love
+    color: #e74c3c
+
+  .purple
+    font-weight: 500
+    color: $primary
+
 /**
  * Checkbox theme by Brad Bodine
  * https://codepen.io/bbodine1/pen/novBm
